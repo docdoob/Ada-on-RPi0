@@ -1,0 +1,141 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O0
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -march=armv6kz+fp
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U interfaces.arm_v7ar%b	i-arm_v7ar.adb		d8642fba NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.machine_code%s	s-maccod.ads		s-maccod.ali
+
+U interfaces.arm_v7ar%s	i-arm_v7ar.ads		9a20a917 BN NE OL PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D interfac.ads		20201026164720 5ab55268 interfaces%s
+D i-arm_v7ar.ads	20201026164720 260e8fc2 interfaces.arm_v7ar%s
+D i-arm_v7ar.adb	20201026164720 93020779 interfaces.arm_v7ar%b
+D system.ads		20201026164720 e69b74bd system%s
+D s-maccod.ads		20201026164720 6d68a701 system.machine_code%s
+G a e
+G c Z s b [get_clidr interfaces__arm_v7ar__cp15 45 16 none]
+G c Z s b [dccimvac interfaces__arm_v7ar__cp15 49 17 none]
+G c Z s b [dcimvac interfaces__arm_v7ar__cp15 53 17 none]
+G c Z s b [get_sctlr interfaces__arm_v7ar__cp15 57 16 none]
+G c Z s b [set_sctlr interfaces__arm_v7ar__cp15 59 17 none]
+G c Z s b [get_actlr interfaces__arm_v7ar__cp15 63 16 none]
+G c Z s b [set_actlr interfaces__arm_v7ar__cp15 65 17 none]
+G c Z s b [get_ccsidr interfaces__arm_v7ar__cp15 72 16 none]
+G c Z s b [set_csselr interfaces__arm_v7ar__cp15 76 17 none]
+G c Z s b [get_mpuir interfaces__arm_v7ar__cp15 82 16 none]
+G c Z s b [get_mpu_region_base_address interfaces__arm_v7ar__cp15 85 16 none]
+G c Z s b [set_mpu_region_base_address interfaces__arm_v7ar__cp15 88 17 none]
+G c Z s b [get_mpu_region_size_and_enable interfaces__arm_v7ar__cp15 91 16 none]
+G c Z s b [set_mpu_region_size_and_enable interfaces__arm_v7ar__cp15 94 17 none]
+G c Z s b [get_mpu_region_access_control interfaces__arm_v7ar__cp15 98 16 none]
+G c Z s b [set_mpu_region_access_control interfaces__arm_v7ar__cp15 101 17 none]
+G c Z s b [set_mpu_region_number interfaces__arm_v7ar__cp15 104 17 none]
+G c Z s b [get_pmcr interfaces__arm_v7ar__cp15 107 16 none]
+G c Z s b [set_pmcr interfaces__arm_v7ar__cp15 111 17 none]
+G c Z s b [dsb interfaces__arm_v7ar__barriers 119 17 none]
+G c Z s b [dmb interfaces__arm_v7ar__barriers 123 17 none]
+G c Z s b [isb interfaces__arm_v7ar__barriers 126 17 none]
+G c Z s b [invalidate_dcache interfaces__arm_v7ar__cache 134 17 none]
+G c Z s b [invalidate_icache interfaces__arm_v7ar__cache 136 17 none]
+X 1 interfac.ads
+38K9*Interfaces 184e15 2|38r9 139r5 3|35r14 331r5
+74M9*Unsigned_32 2|45r33 57r33 59r32 63r33 65r32 72r34 76r33 82r33 85r51
+. 88r50 91r54 95r14 98r53 101r52 104r44 107r32 111r31 3|44r33 46r16 49r26
+. 58r34 59r16 62r26 71r33 74r25 82r33 83r16 86r26 95r32 98r25 106r33 107r16
+. 110r26 119r32 122r25 130r33 132r16 135r26 144r51 146r16 149r26 158r50 162r25
+. 170r54 172r16 175r26 184r53 188r25 196r53 198r16 201r26 210r52 214r25 222r44
+. 226r25 256r32 258r16 261r26 270r31 274r25 319r25 327r25
+X 2 i-arm_v7ar.ads
+38K20*ARM_V7AR 1|38k9 2|139l16 139e24 3|35b25 331l16 331t24
+44K12*CP15 114l8 114e12 3|38b17 278l8 278t12
+45V16*Get_CLIDR{1|74M9} 3|44b16 52l11 52t20
+49U17*DCCIMVAC 49>27 3|245b17 250l11 250t19
+49m27 Mva{4|90M9} 3|245b27 248r49
+53U17*DCIMVAC 53>26 3|234b17 239l11 239t18
+53m26 Mva{4|90M9} 3|234b26 237r49
+57V16*Get_SCTLR{1|74M9} 3|82b16 89l11 89t20
+59U17*Set_SCTLR 59>28 3|95b17 100l11 100t20
+59m28 V{1|74M9} 3|95b28 98r53
+63V16*Get_ACTLR{1|74M9} 3|106b16 113l11 113t20
+65U17*Set_ACTLR 65>28 3|119b17 124l11 124t20
+65m28 V{1|74M9} 3|119b28 122r53
+69N7*SCTLR_C
+70N7*SCTLR_I
+72V16*Get_CCSIDR{1|74M9} 3|58b16 65l11 65t21
+76U17*Set_CSSELR 76>29 3|71b17 76l11 76t21
+76m29 V{1|74M9} 3|71b29 74r53
+82V16*Get_MPUIR{1|74M9} 3|130b16 138l11 138t20
+85V16*Get_MPU_Region_Base_Address{1|74M9} 3|144b16 152l11 152t38
+88U17*Set_MPU_Region_Base_Address 88>46 3|158b17 164l11 164t38
+88m46 V{1|74M9} 3|158b46 162r53
+91V16*Get_MPU_Region_Size_And_Enable{1|74M9} 3|170b16 178l11 178t41
+94U17*Set_MPU_Region_Size_And_Enable 95>10 3|184b17 190l11 190t41
+95m10 V{1|74M9} 3|184b49 188r53
+98V16*Get_MPU_Region_Access_Control{1|74M9} 3|196b16 204l11 204t40
+101U17*Set_MPU_Region_Access_Control 101>48 3|210b17 216l11 216t40
+101m48 V{1|74M9} 3|210b48 214r53
+104U17*Set_MPU_Region_Number 104>40 3|222b17 228l11 228t32
+104m40 V{1|74M9} 3|222b40 226r53
+107V16*Get_PMCR{1|74M9} 3|256b16 264l11 264t19
+111U17*Set_PMCR 111>27 3|270b17 276l11 276t19
+111m27 V{1|74M9} 3|270b27 274r53
+118K12*Barriers 129l8 129e16 3|280b17 307l8 307t16
+119U17*DSB 3|285b17 288l11 288t14
+123U17*DMB 3|294b17 297l11 297t14
+126U17*ISB 3|303b17 306l11 306t14
+133K12*Cache 138l8 138e13 3|309b17 330l8 330t13
+134U17*Invalidate_DCache 3|315b17 321l11 321t28
+136U17*Invalidate_ICache 3|323b17 329l11 329t28
+X 3 i-arm_v7ar.adb
+46m10 Res{1|74M9} 49m56 49r56 51r17
+59m10 Res{1|74M9} 62m56 62r56 64r17
+83m10 Res{1|74M9} 86m56 86r56 88r17
+107m10 Res{1|74M9} 110m56 110r56 112r17
+132m10 Res{1|74M9} 135m56 135r56 137r17
+146m10 Res{1|74M9} 149m56 149r56 151r17
+172m10 Res{1|74M9} 175m56 175r56 177r17
+198m10 Res{1|74M9} 201m56 201r56 203r17
+258m10 Res{1|74M9} 261m56 261r56 263r17
+X 4 system.ads
+60K9*System 2|35w6 49r33 53r32 3|32r6 32r31 36r8 4|172e11
+90M9*Address 2|49r40 53r39 3|234r32 237r25 245r33 248r25
+X 5 s-maccod.ads
+36K16*Machine_Code 3|32w13 32r38 5|131e24
+44I9*Asm_Input_Operand<integer>
+45I9*Asm_Output_Operand<integer>
+83U14*Asm 3|48s10 61s10 73s10 85s10 97s10 109s10 121s10 134s10 148s10 161s10
+. 174s10 187s10 200s10 213s10 225s10 236s10 247s10 260s10 273s10 287s10 296s10
+. 305s10 318s10 326s10
+85i6 Outputs{45I9} 3|49r15 62r15 86r15 110r15 135r15 149r15 175r15 201r15
+. 261r15
+86i6 Inputs{44I9} 3|74r15 98r15 122r15 162r15 188r15 214r15 226r15 237r15
+. 248r15 274r15 319r15 327r15
+88b6 Volatile{boolean} 3|50r15 63r15 75r15 87r15 99r15 111r15 123r15 136r15
+. 150r15 163r15 176r15 189r15 202r15 215r15 227r15 238r15 249r15 262r15 275r15
+. 287r22 296r22 305r22 320r15 328r15
+
