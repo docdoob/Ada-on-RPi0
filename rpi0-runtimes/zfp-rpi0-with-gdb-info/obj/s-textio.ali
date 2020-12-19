@@ -1,0 +1,83 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O0
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -march=armv6kz+fp
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.text_io%b	s-textio.adb		c005a588 NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.raspberry_pi%s  i-raspberry_pi.ads	i-raspberry_pi.ali
+W system%s		system.ads		system.ali
+W system.machine_code%s	s-maccod.ads		s-maccod.ali
+
+U system.text_io%s	s-textio.ads		c48cfb74 NE OL PR PK
+W system%s		system.ads		system.ali
+
+D interfac.ads		20201026164720 5ab55268 interfaces%s
+D i-raspberry_pi.ads	20201026164720 d9ddb8cc interfaces.raspberry_pi%s
+D system.ads		20201026164720 e69b74bd system%s
+D s-maccod.ads		20201026164720 6d68a701 system.machine_code%s
+D s-stoele.ads		20201026164720 2dc34a04 system.storage_elements%s
+D s-textio.ads		20201026164720 22178fc9 system.text_io%s
+D s-textio.adb		20201026164720 b03c4131 system.text_io%b
+G a e
+G c Z s b [initialize system__text_io 43 14 none]
+G c Z s b [is_tx_ready system__text_io 55 13 none]
+G c Z s b [put system__text_io 62 14 none]
+G c Z s b [use_cr_lf_for_new_line system__text_io 66 13 none]
+G c Z s b [is_rx_ready system__text_io 74 13 none]
+G c Z s b [get system__text_io 79 13 none]
+X 1 interfac.ads
+38K9*Interfaces 184e15 7|35r6 39r8 40r8
+74M9*Unsigned_32 7|56r13
+X 2 i-raspberry_pi.ads
+39K20*Raspberry_Pi 430e28 7|35w17 40r19
+54m7*GPFSEL1{1|74M9} 7|70r29 80m22
+99m7*GPPUD{1|74M9} 7|83m22
+100m7*GPPUDCLK0{1|74M9} 7|90m22 96m22
+111r4*GPIO_Registers{52R9} 7|70r14 80m7 83m7 90m7 96m7
+118m4*Aux_ENB{1|74M9} 7|61m7 61r18
+120m4*MU_IO{1|74M9} 7|48r29 133m7
+122m4*MU_IER{1|74M9} 7|100m7
+126m4*MU_LCR{1|74M9} 7|64m7
+128m4*MU_LSR{1|74M9} 7|113r15 122r15
+130m4*MU_CNTL{1|74M9} 7|104m7
+132m4*MU_BAUD{1|74M9} 7|67m7
+X 3 system.ads
+60K9*System 172e11 6|35r9 82r5 7|34w6 36r6 38r14 87r10 93r10 145r5
+X 4 s-maccod.ads
+36K16*Machine_Code 131e24 7|36w13 87r17 93r17
+83U14*Asm 7|87s30 93s30
+88b6 Volatile{boolean} 7|87r42 93r42
+X 6 s-textio.ads
+35K16*Text_IO 3|60k9 6|82l12 82e19 7|38b21 145l12 145t19
+43U14*Initialize 7|55b14 105l8 105t18
+47b4*Initialized{boolean} 7|58m7
+55V13*Is_Tx_Ready{boolean} 7|120b13 123l8 123t19
+62U14*Put 62>19 7|129b14 134l8 134t11
+62e19 C{character} 7|129b19 133r31
+66V13*Use_Cr_Lf_For_New_Line{boolean} 7|140b13 143l8 143t30
+74V13*Is_Rx_Ready{boolean} 7|111b13 114l8 114t19
+79V13*Get{character} 7|46b13 49l8 49t11
+X 7 s-textio.adb
+56m7 Sel{1|74M9} 70m7 73m7 73r14 74m7 74r14 77m7 77r14 78m7 78r14 80r33
+86i11 I{integer}
+92i11 I{integer}
+

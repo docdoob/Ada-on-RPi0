@@ -1,0 +1,12 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb"
+node: { title: "memmove" label: "Memmove\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:40:4\n40 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:67:32" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:67:55" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:78:29" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:78:52" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:87:32" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:87:55" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:97:29" }
+edge: { sourcename: "memmove" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memmov.adb:97:52" }
+}
