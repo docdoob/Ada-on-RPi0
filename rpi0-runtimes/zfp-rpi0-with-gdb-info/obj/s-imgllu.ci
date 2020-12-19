@@ -1,0 +1,16 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb"
+node: { title: "system__img_llu__image_long_long_unsigned" label: "Image_Long_Long_Unsigned\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:40:4\n40 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__img_llu__image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:47:7" }
+edge: { sourcename: "system__img_llu__image_long_long_unsigned" targetname: "system__img_llu__set_image_long_long_unsigned" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:49:7" }
+node: { title: "system__img_llu__set_image_long_long_unsigned" label: "Set_Image_Long_Long_Unsigned\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:56:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__aeabi_uldivmod" label: "aeabi_uldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "system__img_llu__set_image_long_long_unsigned" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:63:10" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:65:10" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:65:13" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:69:10" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:69:37" }
+edge: { sourcename: "system__img_llu__set_image_long_long_unsigned" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-imgllu.adb:69:13" }
+}

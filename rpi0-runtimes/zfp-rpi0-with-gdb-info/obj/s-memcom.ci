@@ -1,0 +1,8 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb"
+node: { title: "memcmp" label: "Memcmp\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb:40:4\n40 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "memcmp" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb:52:42" }
+edge: { sourcename: "memcmp" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb:52:68" }
+edge: { sourcename: "memcmp" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb:62:35" }
+edge: { sourcename: "memcmp" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-memcom.adb:63:35" }
+}
