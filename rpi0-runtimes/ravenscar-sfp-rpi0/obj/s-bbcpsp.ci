@@ -1,0 +1,5 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnarl/s-bbcpsp.ads"
+node: { title: "system__bb__cpu_specific__Tvfpu_registers_typeBIP" label: "Tvfpu_Registers_Typebip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnarl/s-bbcpsp.ads:41:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__bb__cpu_specific__vfpu_context_bufferIP" label: "Vfpu_Context_Bufferip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnarl/s-bbcpsp.ads:43:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__bb__cpu_specific__context_bufferIP" label: "Context_Bufferip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnarl/s-bbcpsp.ads:58:9\n0 bytes (static)\n0 dynamic objects" }
+}

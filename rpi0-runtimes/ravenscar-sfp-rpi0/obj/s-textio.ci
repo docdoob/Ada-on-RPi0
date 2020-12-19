@@ -1,0 +1,8 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb"
+node: { title: "system__text_io__get" label: "Get\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:46:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__initialize" label: "Initialize\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:55:4\n4 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__is_rx_ready" label: "Is_Rx_Ready\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:111:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__is_tx_ready" label: "Is_Tx_Ready\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:120:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__put" label: "Put\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:129:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__use_cr_lf_for_new_line" label: "Use_Cr_Lf_For_New_Line\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-textio.adb:140:4\n0 bytes (static)\n0 dynamic objects" }
+}

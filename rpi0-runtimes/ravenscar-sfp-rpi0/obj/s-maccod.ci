@@ -1,0 +1,4 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-maccod.ads"
+node: { title: "system__machine_code__asm_input_operand_listIP" label: "Asm_Input_Operand_Listip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-maccod.ads:52:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__machine_code__asm_output_operand_listIP" label: "Asm_Output_Operand_Listip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-maccod.ads:55:9\n0 bytes (static)\n0 dynamic objects" }
+}

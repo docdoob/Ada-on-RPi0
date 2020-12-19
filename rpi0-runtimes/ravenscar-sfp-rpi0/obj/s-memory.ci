@@ -1,0 +1,11 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb"
+node: { title: "__gnat_malloc" label: "Alloc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:75:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_last_chance_handler" label: "gnat_last_chance_handler\n<built-in>" shape : ellipse }
+edge: { sourcename: "__gnat_malloc" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:106:13" }
+edge: { sourcename: "__gnat_malloc" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:121:13" }
+node: { title: "malloc" label: "Malloc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:140:4\n0 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "malloc" targetname: "__gnat_malloc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:142:14" }
+node: { title: "calloc" label: "Calloc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:149:4\n0 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "calloc" targetname: "__gnat_malloc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:142:14" }
+node: { title: "free" label: "Free\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-sfp-rpi0/gnat/s-memory.adb:160:4\n0 bytes (static)\n0 dynamic objects" }
+}
