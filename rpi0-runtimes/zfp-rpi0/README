@@ -1,0 +1,74 @@
+Ravenscar for Raspberry Pi 0 board
+=====================================
+
+Runtimes Supported
+------------------
+
+* ZFP
+* Ravenscar-SFP
+* Ravenscar-Full
+Neither Ravenscar has been tested
+
+Boot the board with an Ada program:
+-----------------------------------
+
+By default the board boots on the FAT-formatted SD-CARD.
+
+On this sd-card, you need to have the following firmware files:
+
+- bootcode.bin (required)
+- start.elf (required)
+- fixup.dat (required to use 1GB)
+
+Those startup files can be found with the raspbian distribution.
+
+Use gprbuild to build the application, then:
+
+``$ arm-eabi-objcopy -O binary PROG PROG.bin``
+
+and finally:
+
+``$ cp PROG.bin /sdcard/kernel7.img``
+
+Install the sdcard on the Pi, and power it up.
+
+Resources that can be used by the runtime:
+-----------------------------------------
+
+- mini-uart (MU) for textio.
+
+.. code-block:: none
+
+    Uses pins of the GPIO port:
+      5V +-+ GND
+         | | | +--- TX
+         | | | | +- RX
+         1 2 3 4 5
+     +----------------- ... ----+
+     |/\ * * * * * *    ...     |
+     |\/ * * * * * *    ...    USB
+     |                         USB
+     | #                        |
+
+- Per core CNTP and CNTPCT (generic timer) for time
+- The 64-bit timer in the local registers uses the crystal (19.2 Mhz)
+
+Interrupts:
+-----------
+
+Interrupts 0 to 11 correspond to the core interrupt as described in
+Quad-A7 control document, section 4.10
+
+GPU interrupts are mapped to id 12 - 76.
+
+For example, mini-uart interrupt is named Aux_int, is GPU interrupt #29 so
+has Ada Interrupt_ID 41.
+
+Memory mapping:
+---------------
+see RAM.ld
+
+Boot:
+-----
+
+- Use the normal boot (starts at 0x8000).
