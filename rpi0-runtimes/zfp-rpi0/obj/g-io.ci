@@ -1,0 +1,22 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb"
+node: { title: "gnat__io__put__2" label: "Put\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:37:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "system__text_io__initialize" label: "Initialize\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-textio.ads:43:14" shape : ellipse }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__initialize" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:40:7" }
+node: { title: "system__text_io__use_cr_lf_for_new_line" label: "Use_Cr_Lf_For_New_Line\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-textio.ads:66:13" shape : ellipse }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__use_cr_lf_for_new_line" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:44:29" }
+node: { title: "system__text_io__is_tx_ready" label: "Is_Tx_Ready\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-textio.ads:55:13" shape : ellipse }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__is_tx_ready" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:45:17" }
+node: { title: "system__text_io__put" label: "Put\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-textio.ads:62:14" shape : ellipse }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__put" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:49:21" }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__is_tx_ready" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:52:14" }
+edge: { sourcename: "gnat__io__put__2" targetname: "system__text_io__put" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io-put.adb:56:18" }
+node: { title: "gnat__io__new_line" label: "NEW_LINE\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:40:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__io__new_line" targetname: "gnat__io__put__2" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:43:10" }
+node: { title: "gnat__io__put__3" label: "PUT\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:83:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__io__put__3" targetname: "gnat__io__put__2" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:86:10" }
+node: { title: "gnat__io__put" label: "PUT\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:51:4\n40 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__io__put" targetname: "gnat__io__put__3" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:76:7" }
+node: { title: "gnat__io__put_line" label: "PUT_LINE\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:94:4\n8 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__io__put_line" targetname: "gnat__io__put__3" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:96:7" }
+edge: { sourcename: "gnat__io__put_line" targetname: "gnat__io__put__2" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/g-io.adb:43:10" }
+}

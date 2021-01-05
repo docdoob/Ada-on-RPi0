@@ -1,0 +1,9 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-assert.adb"
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-assert.adb:40:4\n8 bytes (dynamic)\n0 dynamic objects" }
+node: { title: "__gnat_last_chance_handler" label: "Last_Chance_Handler\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/a-except.adb:43:17" shape : ellipse }
+edge: { sourcename: "system__assertions__raise_assert_failure" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-assert.adb:42:7" }
+edge: { sourcename: "system__assertions__raise_assert_failure" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-assert.adb:42:7" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__assertions__raise_assert_failure" targetname: "memcpy" }
+edge: { sourcename: "system__assertions__raise_assert_failure" targetname: "__gnat_last_chance_handler" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/zfp-rpi0/gnat/s-assert.adb:42:7" }
+}
