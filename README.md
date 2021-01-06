@@ -29,8 +29,11 @@ The following files are modified and are in the libraries:
    /src/i-raspberry_pi.ads
    
    /src/i-cache__armv7.adb
+   
+The following file has been removed from the libraries
+   a-elcha.ads
 
-   The following files are modified and form part of the build process:
+The following files are modified and form part of the build process:
    
       /install.py 
       
