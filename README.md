@@ -41,4 +41,15 @@ The following files are modified and form part of the build process:
       
       /arm/cortexar.py 
       
-   
+  The new aspects of the start-up file - start-ram.s are:
+  
+  = the trap vectors and addresses are explicitly copied from 0x8000 to address 0
+  
+  = CPS instructiosn are used to change processor mode in order to create separate stacks
+  
+  = BSS is zeroised using block transfers as far as possible, i.e. stmia instructions
+  
+  = a convenient Last Chance Handler is provided, which counts the number of occurrences and returns to the main program
+  
+  
+  
