@@ -6,9 +6,9 @@ ____________________
 
 ## A GNAT Ada runtime library for the Raspberry Pi Zero - RPi0
 
-Here are bare board runtime libraries (bb-runtimes) for the RPi0 for the standard 3 profiles: Zero FootPrint, Ravenscar Small and Full.
+In **rpi0-runtimes** are bare board runtime libraries (bb-runtimes) for the RPi0 for the standard 3 profiles: Zero FootPrint, Ravenscar Small and Full.
 
-The source of other runtimes is here: https://github.com/AdaCore/bb-runtimes
+The standard source of (other) runtimes is here: https://github.com/AdaCore/bb-runtimes
 
 Only the Zero FootPrint library has been tested. It is in rpio-runtimes/zfp-rpi0.
 
