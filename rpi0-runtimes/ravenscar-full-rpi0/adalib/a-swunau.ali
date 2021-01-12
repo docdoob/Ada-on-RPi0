@@ -1,0 +1,109 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB SS ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.strings.wide_unbounded.aux%b  a-swunau.adb  0eeec8b6 NE OL PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+
+U ada.strings.wide_unbounded.aux%s  a-swunau.ads  f09532b3 BN NE OL PR PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-finali.ads		20210105191555 bf4f806b ada.finalization%s
+D a-stream.ads		20210105191555 119b8fb3 ada.streams%s
+D a-string.ads		20210105191555 90ac6797 ada.strings%s
+D a-stwima.ads		20210105191555 09a6f5ac ada.strings.wide_maps%s
+D a-stwiun.ads		20210105191555 ddbb4982 ada.strings.wide_unbounded%s
+D a-swunau.ads		20210105191555 2d2e7b31 ada.strings.wide_unbounded.aux%s
+D a-swunau.adb		20210105191555 23c0b387 ada.strings.wide_unbounded.aux%b
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-finmas.ads		20210105191555 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210105191555 4ff27390 system.finalization_root%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210105191555 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210105191555 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20210105191555 9a2744e9 system.stream_attributes%s
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210105191555 5ecf7212 system.unsigned_types%s
+G a e
+G c Z s b [get_wide_string ada__strings__wide_unbounded__aux 43 14 none]
+G c Z s b [set_wide_string ada__strings__wide_unbounded__aux 68 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|37r9 76r5 9|32r14 65r5
+X 5 a-string.ads
+16K13*Strings 1|16k9 5|35e16 8|37r13 76r9 9|32r18 65r9
+X 7 a-stwiun.ads
+39K21*Wide_Unbounded 5|16k13 7|443e31 8|37r21 76r17 9|32r26 65r17
+42R9*Unbounded_Wide_String<3|43R9> 411e14 8|44r11 60r40 69r19 9|39r11 56r19
+49P9*Wide_String_Access(wide_string) 8|70r12 9|57r12
+67U14*Set_Unbounded_Wide_String 8|61r14
+409p7*Reference{49P9} 9|44r27 61m10 62r21
+410i7*Last{natural} 9|48r14 62m10
+428U14 Finalize<3|48p14> 9|60s7
+X 8 a-swunau.ads
+37K36*Aux 7|39k21 8|76l32 76e35 9|32b41 65l32 65t35
+40A12*Big_Wide_String{wide_string}<integer> 41r46 9|43r19
+41P9*Big_Wide_String_Access(40A12) 45r15 9|40r15
+43U14*Get_Wide_String 44>7 45<7 46<7 47r19 9|38b14 49l8 49t23
+44r7 U{7|42R9} 9|39b7 44r25 48r12
+45p7 S{41P9} 9|40b7 47m7
+46i7 L{natural} 9|41b7 48m7
+60U14*Set_Wide_String=61:14
+60r31 UP{7|42R9}
+60a63 S{wide_string}
+68U14*Set_Wide_String 69=7 70>7 9|55b14 63l8 63t23
+69r7 UP{7|42R9} 9|56b7 60m17 61m7 62m7 62r18
+70p7 S{7|49P9} 9|57b7 61r23
+X 9 a-swunau.adb
+43a7 X{8|40A12} 44m11 44r11 47m12 47r12
+X 28 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 36 s-taskin.ads
+407V13*Get_Sec_Stack{28|46P9} 408i<c,__gnat_get_secondary_stack>22
+

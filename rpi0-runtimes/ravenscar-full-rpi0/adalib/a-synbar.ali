@@ -1,0 +1,130 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U ada.synchronous_barriers%b  a-synbar.adb	11f59dac NE OL PK
+W ada%s			ada.ads			ada.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U ada.synchronous_barriers%s  a-synbar.ads	d8452619 NE OL PR PK
+W ada%s			ada.ads			ada.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-synbar.ads		20210105191556 ae3dbbb8 ada.synchronous_barriers%s
+D a-synbar.adb		20210105191556 bfc82614 ada.synchronous_barriers%b
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbbosu.adb		20210105191556 89afffe7 system.bb.board_support%b
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcppr.adb		20210105191556 6e980c43 system.bb.cpu_primitives%b
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbprot.ads		20210105191556 f48a7e85 system.bb.protection%s
+D s-bbprot.adb		20210105191556 66225843 system.bb.protection%b
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthre.adb		20210105191556 40388c8b system.bb.threads%b
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbthqu.adb		20210105191556 bc75720a system.bb.threads.queues%b
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-bbtime.adb		20210105191556 b8bddbbc system.bb.time%b
+D s-bbtiev.ads		20210105191556 f167837c system.bb.timing_events%s
+D s-maccod.ads		20210105191555 6d68a701 system.machine_code%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20210105191556 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20210105191556 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-soflin.ads		20210105191555 09900c20 system.soft_links%s
+D s-soflin.adb		20210105191555 f25f2d5e system.soft_links%b
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210105191555 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taprop.ads		20210105191556 5013f316 system.task_primitives.operations%s
+D s-taprop.adb		20210105191556 beae9bdd system.task_primitives.operations%b
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-tasdeb.ads		20210105191556 b275d76a system.tasking.debug%s
+D s-tasdeb.adb		20210105191556 16d62b3b system.tasking.debug%b
+D s-taprob.ads		20210105191556 c8fc0753 system.tasking.protected_objects%s
+D s-tpoben.ads		20210105191556 8351b91e system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210105191556 1882ba41 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [wait_for_release ada__synchronous_barriers 44 14 none]
+G c Z s b [wait ada__synchronous_barriers__synchronous_barrier 50 13 none]
+G c Z s s [synchronous_barrierVIP ada__synchronous_barriers 49 4 none]
+G c Z s s [P2sIP ada__synchronous_barriers 50 7 none]
+X 1 ada.ads
+16K9*Ada 20e8 3|36r9 54r5 4|36r14 78r5
+X 3 a-synbar.ads
+36K13*Synchronous_Barriers 1|16k9 3|37r25 49E19 54l9 54e29 4|36b18 78l9 78t29
+39I12*Barrier_Limit{positive} 41r50 49r60
+41W9*Synchronous_Barrier 41d30 45r28 52E7 53l8 53e27 4|38b19 64l8 64t27 71r28
+41i30 Release_Threshold{39I12} 49r40 4|50r45
+44U14*Wait_For_Release 45=7 46<7 4|70b14 76l8 76t24
+45w7 The_Barrier{41W9} 4|71b7 75r7
+46b7 Notified{boolean} 4|72b7 75m25
+50Y13 Wait 50<19 4|49b13 50r32 57r23 62r22 63l11 63t15 75s19
+50b19 Notified{boolean} 4|62m10
+52b7 Keep_Open{boolean} 4|50r14 57r10
+X 4 a-synbar.adb
+49b19 Notified{boolean}
+X 11 s-bbbosu.adb
+55U14 Initialize_CPU_Devices 56i<c,__gnat_initialize_cpu_devices>22
+X 13 s-bbcppr.adb
+60U14 Undef_Handler 62i24
+64U14 Dabt_Handler 66i24
+77U14 FIQ_Handler 79i24
+81U14 IRQ_Handler 83i24
+X 32 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 41 s-taprop.adb
+64U14 Initialize_Slave 65i24
+X 42 s-taskin.ads
+407V13*Get_Sec_Stack{32|46P9} 408i<c,__gnat_get_secondary_stack>22
+
