@@ -1,0 +1,165 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ada.task_identification%b  a-taside.adb	8a9b842f NE OL PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted%s  s-tasres.ads	s-tasres.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+U ada.task_identification%s  a-taside.ads	f8d55e48 BN NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-taside.ads		20210105191556 00e3a3f6 ada.task_identification%s
+D a-taside.adb		20210105191556 12e0b955 ada.task_identification%b
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbbosu.adb		20210105191556 89afffe7 system.bb.board_support%b
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcppr.adb		20210105191556 6e980c43 system.bb.cpu_primitives%b
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbprot.ads		20210105191556 f48a7e85 system.bb.protection%s
+D s-bbprot.adb		20210105191556 66225843 system.bb.protection%b
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthre.adb		20210105191556 40388c8b system.bb.threads%b
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbthqu.adb		20210105191556 bc75720a system.bb.threads.queues%b
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-bbtime.adb		20210105191556 b8bddbbc system.bb.time%b
+D s-bbtiev.ads		20210105191556 f167837c system.bb.timing_events%s
+D s-maccod.ads		20210105191555 6d68a701 system.machine_code%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210105191555 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taprop.ads		20210105191556 5013f316 system.task_primitives.operations%s
+D s-taprop.adb		20210105191556 beae9bdd system.task_primitives.operations%b
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-tasdeb.ads		20210105191556 b275d76a system.tasking.debug%s
+D s-tasdeb.adb		20210105191556 16d62b3b system.tasking.debug%b
+D s-tasres.ads		20210105191556 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20210105191556 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [Oeq ada__task_identification 58 13 none]
+G c Z s b [image ada__task_identification 62 13 none]
+G c Z s b [current_task ada__task_identification 65 13 none]
+G c Z s b [environment_task ada__task_identification 70 13 none]
+G c Z s b [abort_task ada__task_identification 75 14 none]
+G c Z s b [is_terminated ada__task_identification 81 13 none]
+G c Z s b [is_callable ada__task_identification 87 13 none]
+G c Z s b [activation_is_complete ada__task_identification 93 13 none]
+G c Z b b [convert_ids ada__task_identification 58 13 none]
+G c Z b b [convert_ids ada__task_identification 59 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 4|45r9 104r5 5|48r14 171r5
+X 4 a-taside.ads
+45K13*Task_Identification 1|16k9 4|100E9 104l9 104e28 5|48b18 171l9 171t28
+47@22*Tasking_State 48r21 67r16 84r16 90r16 95r16
+53P9*Task_Id<38|67P9> 54r41 56r28 58r32 62r24 65r33 70r37 75r30 81r32 87r30
+. 93r41 100c9 102r28 5|58r30 59r61 67r32 76r30 85r41 99r30 104r61 106r14
+. 113r33 130r37 139r24 149r30 162r32
+56p4*Null_Task_Id{53P9} 76r21 83r21 89r21 102c4 5|88r14 151r14 164r14
+58V14*"="{boolean} 58>18 58>24 76r18 83r18 89r18 5|67b14 70l9 70t11 88s12
+. 151s12 164s12
+58p18 Left{53P9} 5|67b18 69r47
+58p24 Right{53P9} 5|67b24 69r67
+62V13*Image{string} 62>20 5|139b13 143l8 143t13
+62p20 T{53P9} 5|139b20 140r28
+65V13*Current_Task{53P9} 68r19 5|113b13 124l8 124t20
+70V13*Environment_Task{53P9} 73r19 5|130b13 133l8 133t24
+75U14*Abort_Task 75>26 78r19 5|76b14 79l8 79t18
+75p26 T{53P9} 76r16 5|76b26
+81V13*Is_Terminated{boolean} 81>28 85r19 5|162b13 169l8 169t21
+81p28 T{53P9} 83r16 5|162b28 164r10 167r53
+87V13*Is_Callable{boolean} 87>26 91r19 5|149b13 156l8 156t19
+87p26 T{53P9} 89r16 5|149b26 151r10
+93V13*Activation_Is_Complete{boolean} 93>37 5|85b13 93l8 93t30
+93p37 T{53P9} 5|85b37 88r10 91r17
+X 5 a-taside.adb
+58V13 Convert_Ids{38|67P9} 58>26 69s34 69s54 99b13 102l8 102t19 167s40
+58p26 T{4|53P9} 99b26 101r38
+59V13 Convert_Ids{4|53P9} 59>26 104b13 107l8 107t19 123s14 132s14
+59p26 T{38|67P9} 104b26 106r23
+X 8 system.ads
+45K9*System 4|42w6 43r6 100r24 5|34r6 43r6 52r8 58r46 59r30 69r14 86r16 91r35
+. 99r46 101r14 104r30 119r14 123r27 132r27 8|168e11
+X 11 s-bbbosu.adb
+55U14 Initialize_CPU_Devices 56i<c,__gnat_initialize_cpu_devices>22
+X 13 s-bbcppr.adb
+60U14 Undef_Handler 62i24
+64U14 Dabt_Handler 66i24
+77U14 FIQ_Handler 79i24
+81U14 IRQ_Handler 83i24
+X 30 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 35 s-taspri.ads
+40K16*Task_Primitives 5|34r13 119r21 123r34 132r34 35|82e27
+X 36 s-taprop.ads
+44K32*Operations 5|34w29 119r37 123r50 132r50 36|122e38
+50p4*Environment_Task{38|67P9} 5|132r61
+76V13*Self{38|67P9} 5|123s61
+117V13*Is_Task_Context{boolean} 5|119s48
+X 37 s-taprop.adb
+64U14 Initialize_Slave 65i24
+X 38 s-taskin.ads
+58K16*Tasking 4|43w13 100r31 5|43r13 52r15 58r53 59r37 69r21 86r23 91r42
+. 99r53 101r21 104r37 38|462e19
+67P9*Task_Id(65R9) 4|100r39 5|58r61 59r45 99r61 101r29 104r45
+90E9*Task_States 5|86r31 38|146e7
+91n7*Unactivated{90E9} 5|91r50
+308e7*State{90E9} 5|91r26
+386r7*Common{307R9} 5|91r19
+407V13*Get_Sec_Stack{30|46P9} 408i<c,__gnat_get_secondary_stack>22
+X 41 s-tasres.ads
+34K24*Restricted 5|43r21 52r23 41|35e30
+X 42 s-tarest.ads
+50K35*Stages 5|43w32 52r34 42|271e37
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+255V13*Restricted_Terminated{boolean} 5|167s17
+

@@ -1,0 +1,137 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U gnat.sha1%b		g-sha1.ads		077f0b47 NE OL PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.secure_hashes%s	g-sechas.adb		g-sechas.ali
+W gnat.secure_hashes.sha1%s  g-sehash.adb	g-sehash.ali
+W system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U gnat.sha1%s		g-sha1.ads		02ab0ff1 EB EE OL PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.secure_hashes%s	g-sechas.adb		g-sechas.ali
+W gnat.secure_hashes.sha1%s  g-sehash.adb	g-sehash.ali
+W system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-stream.ads		20210105191555 119b8fb3 ada.streams%s
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D gnat.ads		20210105191555 b5988c27 gnat%s
+D g-bytswa.ads		20210105191555 a4d21639 gnat.byte_swapping%s
+D g-sechas.ads		20210105191555 3b5ca98e gnat.secure_hashes%s
+D g-sechas.adb		20210105191555 ee89611f gnat.secure_hashes%b
+D g-sehash.ads		20210105191555 66b3b198 gnat.secure_hashes.sha1%s
+D g-sha1.ads		20210105191555 077f0b47 gnat.sha1%s
+D g-sha1.ads		20210105191555 077f0b47 gnat.sha1%b
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210105191555 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+G a e
+G c Z s s [hmac_initial_context gnat__sha1 147 16 42_1]
+G c Z s s [update gnat__sha1 150 17 42_1]
+G c Z s s [wide_update gnat__sha1 151 17 42_1]
+G c Z s s [update gnat__sha1 152 17 42_1]
+G c Z s s [digest gnat__sha1 168 16 42_1]
+G c Z s s [digest gnat__sha1 171 16 42_1]
+G c Z s s [wide_digest gnat__sha1 172 16 42_1]
+G c Z s s [digest gnat__sha1 173 16 42_1]
+G c Z s s [digest gnat__sha1 183 16 42_1]
+G c Z s s [digest gnat__sha1 187 16 42_1]
+G c Z s s [wide_digest gnat__sha1 188 16 42_1]
+G c Z s s [digest gnat__sha1 189 16 42_1]
+G c Z s s [contextIP gnat__sha1 210 12 42_1]
+G c Z s s [read gnat__sha1 227 17 42_1]
+G c Z s s [write gnat__sha1 233 17 42_1]
+G c Z s s [hash_streamDF gnat__sha1 224 12 42_1]
+G c Z s s [hash_streamIP gnat__sha1 224 12 42_1]
+G c Z s s [update gnat__sha1 147 17 42_1]
+G c Z s s [final gnat__sha1 153 17 42_1]
+X 6 gnat.ads
+34K9*GNAT 57e9 12|39r6 42r9 42r26 43r22 47r22 48r22 49r22
+X 8 g-sechas.ads
+45K14*Secure_Hashes 240e23 12|39r11 42r31 43r27 47r27 48r27 49r27
+73M12 Word
+84A12 State(73M12[114])<integer>
+100i7 Block_Words{natural} 12|43r4
+103i7 State_Words{natural} 12|44r4
+106i7 Hash_Words{natural} 12|45r4
+110e7 Hash_Bit_Order{14|99E9} 12|46r4
+114K20 Hash_State 12|47r4
+117a7 Initial_State{84A12[114]} 12|48r4
+120U22 Transform 12|49r4
+126k12*H 238e9 12|42r45
+X 10 g-sehash.ads
+43K28*SHA1 72e28 12|39w25 43r41 47r41 48r41 49r41
+45K12*Hash_State[8|82] 12|47r46
+51N4*Block_Words 12|43r46
+54U14*Transform 12|49r46
+59a4*Initial_State{8|84A12[45]} 12|48r46
+X 12 g-sha1.ads
+42K14*SHA1[8|126] 6|34k9
+X 13 interfac.ads
+74M9*Unsigned_32
+X 14 system.ads
+45K9*System 12|40w6 46r22 14|168e11
+99n23*High_Order_First{99E9} 12|46r29
+X 27 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 33 s-taskin.ads
+407V13*Get_Sec_Stack{27|46P9} 408i<c,__gnat_get_secondary_stack>22
+
