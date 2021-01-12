@@ -1,0 +1,84 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U interfaces.cache%b	i-cache.adb		a6563454 NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.arm_v7ar%s	i-arm_v7ar.adb		i-arm_v7ar.ali
+W system%s		system.ads		system.ali
+
+U interfaces.cache%s	i-cache.ads		d1fae58b NE OL PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D i-arm_v7ar.ads	20210105191556 260e8fc2 interfaces.arm_v7ar%s
+D i-arm_v7ar.adb	20210105191556 93020779 interfaces.arm_v7ar%b
+D i-cache.ads		20210105191556 7073c4ee interfaces.cache%s
+D i-cache.adb		20210105191556 26d44671 interfaces.cache%b
+D system.ads		20210105191556 d6ff3909 system%s
+D s-maccod.ads		20210105191555 6d68a701 system.machine_code%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210105191555 ed88f8fb system.storage_elements%b
+G a e
+G c Z s b [dcache_invalidate_by_range interfaces__cache 43 14 none]
+G c Z s b [dcache_flush_by_range interfaces__cache 47 14 none]
+X 3 interfac.ads
+38K9*Interfaces 184e15 6|37r9 51r5 7|32r6 32r31 35r14 81r5
+X 4 i-arm_v7ar.ads
+38K20*ARM_V7AR 139e24 7|32w17 32r42
+44K12*CP15 114e12 7|49r10 71r10
+49U17*DCCIMVAC 7|71s15
+53U17*DCIMVAC 7|49s15
+X 6 i-cache.ads
+37K20*Cache 3|38k9 6|51l16 51e21 7|35b25 81l16 81t21
+43U14*Dcache_Invalidate_By_Range 44>7 45>7 7|38b14 58l8 58t34
+44m7 Start{8|75M9} 7|38b42 45r19 46r15
+45i7 Len{10|62I12} 7|38b59 51r26
+47U14*Dcache_Flush_By_Range 48>7 49>7 7|60b14 80l8 80t29
+48m7 Start{8|75M9} 7|60b37 67r19 68r15
+49i7 Len{10|62I12} 7|60b54 73r26
+X 7 i-cache.adb
+40N7 Line_Size 45r29 50r23 52r25
+41i7 Line_Off{10|62I12} 45m7 46r23 51r32
+42i7 Off{10|62I12} 47m7 50m10 50r17 51r20
+43m7 Addr{8|75M9} 46m7 49r24 52m10 52r18
+62N7 Line_Size 67r29 72r23 74r25
+63i7 Line_Off{10|62I12} 67m7 68r23 73r32
+64i7 Off{10|62I12} 69m7 72m10 72r17 73r20
+65m7 Addr{8|75M9} 68m7 71r25 74m10 74r18
+X 8 system.ads
+45K9*System 6|34w6 35r6 44r15 45r15 48r15 49r15 7|33w6 33r18 36r8 8|168e11
+75M9*Address 6|44r22 48r22 7|38r50 43r14 60r45 65r14
+X 10 s-stoele.ads
+42K16*Storage_Elements 6|35w13 45r22 49r22 7|36r15 10|117e28
+54I9*Storage_Offset<integer>
+62I12*Storage_Count{54I9} 6|45r39 49r39 7|38r65 41r18 42r13 60r60 63r18 64r13
+76V14*"+"{8|75M9} 7|52s23 74s23
+86V14*"-"{8|75M9} 7|46s21 68s21
+96V14*"mod"{54I9} 7|45s25 67s25
+
