@@ -1,0 +1,111 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.storage_pools.subpools.finalization%b  s-spsufi.adb  84042202 NE OL PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U system.storage_pools.subpools.finalization%s  s-spsufi.ads  8bd8fdc9 NE OL PR PK
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-finali.ads		20210105191555 bf4f806b ada.finalization%s
+D a-stream.ads		20210105191555 119b8fb3 ada.streams%s
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210105191555 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-finmas.ads		20210105191555 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210105191555 4ff27390 system.finalization_root%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20210105191555 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20210105191555 e251976f system.storage_pools.subpools%s
+D s-spsufi.ads		20210105191555 69896aa6 system.storage_pools.subpools.finalization%s
+D s-spsufi.adb		20210105191555 7a6f8ce1 system.storage_pools.subpools.finalization%b
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [finalize_and_deallocate system__storage_pools__subpools__finalization 41 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 30|32r6 43r29
+X 7 a-uncdea.ads
+20u15*Unchecked_Deallocation 30|32w10 43r33
+X 9 system.ads
+45K9*System 168e11 29|34r9 48r5 30|34r6 34r39 36r14 89r5
+X 19 s-finmas.ads
+38K16*Finalization_Masters 206e32 30|34w13 34r46
+96U25*Finalize<3|54p14> 30|58s7
+X 24 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 27 s-stopoo.ads
+39K16*Storage_Pools 9|45k9 27|100e25 29|34r16 48r12 30|36r21 89r12
+X 28 s-stposu.ads
+40K30*Subpools 27|39k16 28|360e34 29|34r30 48r26 30|36r35 89r26
+56P9*Subpool_Handle(51R9) 29|41r56 30|42r56
+96x14*Deallocate_Subpool 30|83R10
+160P9 Any_Storage_Pool_With_Subpools_Ptr(43R9) 30|80r27
+174R9 SP_Node 181e14 30|43r57
+175P9 SP_Node_Ptr(174R9) 30|43r66
+243p7*Owner{160P9} 30|50r25 80r73 82m18
+246r7*Master{19|67R9} 30|58m25
+249p7*Node{175P9} 30|51r25 62r23 67m21
+330U14 Detach 30|62s7
+X 29 s-spsufi.ads
+34K39*Finalization 28|40k30 29|48l35 48e47 30|36b44 89l35 89t47
+41U14*Finalize_And_Deallocate 41=39 30|42b14 87l8 87t31
+41p39 Subpool{28|56P9} 30|42b39 49r10 50r17 51r17 58r17 62r15 67r13 80r65
+. 82r10 83m41 86m7
+X 30 s-spsufi.adb
+43U17 Free[7|20] 67s7
+80p10 Owner{28|160P9} 83r30
+X 33 s-taskin.ads
+407V13*Get_Sec_Stack{24|46P9} 408i<c,__gnat_get_secondary_stack>22
+

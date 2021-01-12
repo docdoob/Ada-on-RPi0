@@ -1,0 +1,39 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.powten_table%s	s-powtab.ads		868f5f7e NE OL PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20210105191556 d6ff3909 system%s
+D s-powtab.ads		20210105191555 50706677 system.powten_table%s
+G a e
+X 1 system.ads
+45K9*System 168e11 2|34r9 70r5
+X 2 s-powtab.ads
+34K16*Powten_Table 1|45k9 2|70l12 70e24
+37N4*Maxpow 45r34
+45a4*Powten(long_long_float)
+

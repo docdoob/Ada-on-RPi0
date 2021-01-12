@@ -1,0 +1,130 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=arm1176jzf-s
+A -mfpu=vfpv2
+A -marm
+A -mno-unaligned-access
+A -gnatg
+A -fno-delete-null-pointer-checks
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -fomit-frame-pointer
+A -march=armv6kz+fp
+P DB ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U system.storage_pools%b  s-stopoo.adb		35d6ef80 NE OL PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+
+U system.storage_pools%s  s-stopoo.ads		ad89debe EE OL PU PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20210105191555 76789da1 ada%s
+D a-except.ads		20210105191555 a7106115 ada.exceptions%s
+D a-finali.ads		20210105191555 bf4f806b ada.finalization%s
+D a-stream.ads		20210105191555 119b8fb3 ada.streams%s
+D a-tags.ads		20210105191555 edddc8f0 ada.tags%s
+D a-unccon.ads		20210105191555 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210105191555 5ab55268 interfaces%s
+D system.ads		20210105191556 d6ff3909 system%s
+D s-bb.ads		20210105191555 09e072ae system.bb%s
+D s-bbbosu.ads		20210105191556 b43d4db6 system.bb.board_support%s
+D s-bbcppr.ads		20210105191556 59b80593 system.bb.cpu_primitives%s
+D s-bbcpsp.ads		20210105191556 720822f6 system.bb.cpu_specific%s
+D s-bbinte.ads		20210105191556 c88d39da system.bb.interrupts%s
+D s-bbpara.ads		20210105191556 bb664196 system.bb.parameters%s
+D s-bbthre.ads		20210105191556 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20210105191556 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20210105191556 ad086247 system.bb.time%s
+D s-finroo.ads		20210105191555 4ff27390 system.finalization_root%s
+D s-multip.ads		20210105191556 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20210105191556 229b14dd system.os_interface%s
+D s-parame.ads		20210105191556 96993d70 system.parameters%s
+D s-secsta.ads		20210105191555 56a2861c system.secondary_stack%s
+D s-stalib.ads		20210105191555 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20210105191555 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210105191555 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210105191555 e9fa2dd8 system.storage_pools%s
+D s-stopoo.adb		20210105191555 dc2cc258 system.storage_pools%b
+D s-tasinf.ads		20210105191556 801abd01 system.task_info%s
+D s-taspri.ads		20210105191556 351848fa system.task_primitives%s
+D s-taskin.ads		20210105191556 58b15916 system.tasking%s
+D s-traent.ads		20210105191555 005bf670 system.traceback_entries%s
+G a e
+G c Z s b [allocate_any system__storage_pools 88 14 none]
+G c Z s b [deallocate_any system__storage_pools 94 14 none]
+G c Z s s [root_storage_poolDF system__storage_pools 66 9 none]
+G c Z s s [root_storage_poolIP system__storage_pools 66 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 26|36r6 43r10 67r10
+X 3 a-finali.ads
+40K13*Finalization 68e21 26|36w10 43r14 67r14
+50H9*Limited_Controlled<18|40R9> 66e55 26|43r27 67r27
+53U14*Initialize<18|44p14>
+54U14*Finalize<18|43p14>
+X 8 system.ads
+45K9*System 168e11 26|37r6 39r9 48r38 49r34 50r34 55r34 56r34 57r34 62r14
+. 90r37 91r33 92r33 96r33 97r33 98r33 100r5 27|32r14 40r37 41r33 42r33 54r33
+. 55r33 56r33 62r5
+75M9*Address 26|48r45 55r41 90r44 96r40 27|40r44 54r40
+X 18 s-finroo.ads
+42U14*Adjust
+X 22 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 24 s-stoele.ads
+42K16*Storage_Elements 117e28 26|37w13 49r41 50r41 56r41 57r41 62r21 91r40
+. 92r40 97r40 98r40 27|41r40 42r40 55r40 56r40
+54I9*Storage_Offset<integer>
+62I12*Storage_Count{54I9} 26|49r58 50r58 56r58 57r58 62r38 91r57 92r57 97r57
+. 98r57 27|41r57 42r57 55r57 56r57
+X 26 s-stopoo.ads
+39K16*Storage_Pools 8|45k9 26|66E9 100l12 100e25 27|32b21 62l12 62t25
+42H9*Root_Storage_Pool<3|50R9> 3|53P14 54P14 18|42p14 26|44r41 46p14 47r41
+. 53p14 54r41 60p13 61r14 66c9 67e62 69r45 89r40 95r40 27|39r40 53r40
+46x14*Allocate 47=7 48<7 49>7 50>7 27|45R7
+47r7 Pool{42R9}
+48m7 Storage_Address{8|75M9}
+49i7 Size_In_Storage_Elements{24|62I12}
+50i7 Alignment{24|62I12}
+53x14*Deallocate 54=7 55>7 56>7 57>7 27|59R7
+54r7 Pool{42R9}
+55m7 Storage_Address{8|75M9}
+56i7 Size_In_Storage_Elements{24|62I12}
+57i7 Alignment{24|62I12}
+60y13*Storage_Size{24|62I12} 61>7
+61r7 Pool{42R9}
+69P9 Root_Storage_Pool_Ptr(42R9) 70r8
+88U14 Allocate_Any 89=6 90<6 91>6 92>6 27|38b14 46l8 46t20
+89c6 Pool<42R9> 27|39b6 45m17
+90m6 Storage_Address{8|75M9} 27|40b6 45m23
+91i6 Size_In_Storage_Elements{24|62I12} 27|41b6 45r40
+92i6 Alignment{24|62I12} 27|42b6 45r66
+94U14 Deallocate_Any 95=6 96>6 97>6 98>6 27|52b14 60l8 60t22
+95c6 Pool<42R9> 27|53b6 59m19
+96m6 Storage_Address{8|75M9} 27|54b6 59r25
+97i6 Size_In_Storage_Elements{24|62I12} 27|55b6 59r42
+98i6 Alignment{24|62I12} 27|56b6 59r68
+X 30 s-taskin.ads
+407V13*Get_Sec_Stack{22|46P9} 408i<c,__gnat_get_secondary_stack>22
+
