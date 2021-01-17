@@ -1,0 +1,14 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb"
+node: { title: "gnat__most_recent_exception__occurrence_access" label: "OCCURRENCE_ACCESS\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:65:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "system__soft_links__get_current_excep_soft" label: "Get_Current_Excep_Soft\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-soflin.ads:134:13" shape : ellipse }
+edge: { sourcename: "gnat__most_recent_exception__occurrence_access" targetname: "system__soft_links__get_current_excep_soft" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:71:51" }
+node: { title: "_ada_ada__exceptions__is_null_occurrence" label: "Is_Null_Occurrence\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-einuoc.ads:37:25" shape : ellipse }
+edge: { sourcename: "gnat__most_recent_exception__occurrence_access" targetname: "_ada_ada__exceptions__is_null_occurrence" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:77:13" }
+node: { title: "gnat__most_recent_exception__occurrence" label: "OCCURRENCE\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:41:4\n440 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "gnat__most_recent_exception__occurrence" targetname: "gnat__most_recent_exception__occurrence_access" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:43:41" }
+node: { title: "ada__exceptions__save_occurrence" label: "Save_Occurrence\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-except.ads:117:14" shape : ellipse }
+edge: { sourcename: "gnat__most_recent_exception__occurrence" targetname: "ada__exceptions__save_occurrence" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:50:27" }
+edge: { sourcename: "gnat__most_recent_exception__occurrence" targetname: "ada__exceptions__save_occurrence" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-moreex.adb:54:27" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "gnat__most_recent_exception__occurrence" targetname: "memcpy" }
+}

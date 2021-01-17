@@ -1,0 +1,5 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-ransee.adb"
+node: { title: "system__random_seed__get_seed" label: "Get_Seed\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-ransee.adb:46:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__real_time__clock" label: "Clock\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/a-reatim.ads:68:13" shape : ellipse }
+edge: { sourcename: "system__random_seed__get_seed" targetname: "ada__real_time__clock" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-ransee.adb:48:22" }
+}

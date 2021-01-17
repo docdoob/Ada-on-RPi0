@@ -1,0 +1,7 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads"
+node: { title: "interfaces__raspberry_pi__gpio_registers_typeIP" label: "Gpio_Registers_Typeip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads:52:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__raspberry_pi__arm_interrupt_typeIP" label: "Arm_Interrupt_Typeip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads:157:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__raspberry_pi__arm_timer_typeIP" label: "Arm_Timer_Typeip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads:178:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__raspberry_pi__emmc_registers_typeIP" label: "Emmc_Registers_Typeip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads:199:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__raspberry_pi__pl011_registers_typeIP" label: "Pl011_Registers_Typeip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/i-raspberry_pi.ads:388:9\n0 bytes (static)\n0 dynamic objects" }
+}

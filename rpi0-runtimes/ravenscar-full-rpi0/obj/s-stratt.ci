@@ -1,0 +1,382 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb"
+edge: { sourcename: "system__stream_attributes__i_ad"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:167:18"
+}
+edge: { sourcename: "system__stream_attributes__i_as"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:189:18"
+}
+edge: { sourcename: "system__stream_attributes__i_b"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:211:18"
+}
+edge: { sourcename: "system__stream_attributes__i_c"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:233:18"
+}
+edge: { sourcename: "system__stream_attributes__i_f"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:255:18"
+}
+edge: { sourcename: "system__stream_attributes__i_i"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:277:18"
+}
+edge: { sourcename: "system__stream_attributes__i_i24"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:299:18"
+}
+edge: { sourcename: "system__stream_attributes__i_lf"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:321:18"
+}
+edge: { sourcename: "system__stream_attributes__i_li"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:343:18"
+}
+edge: { sourcename: "system__stream_attributes__i_llf"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:365:18"
+}
+edge: { sourcename: "system__stream_attributes__i_lli"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:387:18"
+}
+edge: { sourcename: "system__stream_attributes__i_llu"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:411:18"
+}
+edge: { sourcename: "system__stream_attributes__i_lu"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:433:18"
+}
+edge: { sourcename: "system__stream_attributes__i_sf"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:455:18"
+}
+edge: { sourcename: "system__stream_attributes__i_si"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:477:18"
+}
+edge: { sourcename: "system__stream_attributes__i_ssi"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:499:18"
+}
+edge: { sourcename: "system__stream_attributes__i_ssu"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:523:18"
+}
+edge: { sourcename: "system__stream_attributes__i_su"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:545:18"
+}
+edge: { sourcename: "system__stream_attributes__i_u"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:567:18"
+}
+edge: { sourcename: "system__stream_attributes__i_u24"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:589:18"
+}
+edge: { sourcename: "system__stream_attributes__i_wc"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:611:18"
+}
+edge: { sourcename: "system__stream_attributes__i_wwc"
+  targetname: "1:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:633:18"
+}
+edge: { sourcename: "system__stream_attributes__w_ad"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:654:18"
+}
+edge: { sourcename: "system__stream_attributes__w_as"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:669:18"
+}
+edge: { sourcename: "system__stream_attributes__w_b"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:685:18"
+}
+edge: { sourcename: "system__stream_attributes__w_c"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:701:18"
+}
+edge: { sourcename: "system__stream_attributes__w_f"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:715:18"
+}
+edge: { sourcename: "system__stream_attributes__w_i"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:729:18"
+}
+edge: { sourcename: "system__stream_attributes__w_i24"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:743:18"
+}
+edge: { sourcename: "system__stream_attributes__w_lf"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:757:18"
+}
+edge: { sourcename: "system__stream_attributes__w_li"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:771:18"
+}
+edge: { sourcename: "system__stream_attributes__w_llf"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:785:18"
+}
+edge: { sourcename: "system__stream_attributes__w_lli"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:799:18"
+}
+edge: { sourcename: "system__stream_attributes__w_llu"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:815:18"
+}
+edge: { sourcename: "system__stream_attributes__w_lu"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:829:18"
+}
+edge: { sourcename: "system__stream_attributes__w_sf"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:843:18"
+}
+edge: { sourcename: "system__stream_attributes__w_si"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:857:18"
+}
+edge: { sourcename: "system__stream_attributes__w_ssi"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:873:18"
+}
+edge: { sourcename: "system__stream_attributes__w_ssu"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:889:18"
+}
+edge: { sourcename: "system__stream_attributes__w_su"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:903:18"
+}
+edge: { sourcename: "system__stream_attributes__w_u"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:917:18"
+}
+edge: { sourcename: "system__stream_attributes__w_u24"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:931:18"
+}
+edge: { sourcename: "system__stream_attributes__w_wc"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:945:18"
+}
+edge: { sourcename: "system__stream_attributes__w_wwc"
+  targetname: "2:ada__streams__root_stream_type,ada__streams__root_stream_type"
+  label: "s-stratt.adb:961:18"
+}
+node: { title: "system__stream_attributes__thin_pointerIP" label: "Thin_Pointerip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.ads:71:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__fat_pointerIP" label: "Fat_Pointerip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.ads:75:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr_support" label: "Xdr_Support\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:140:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__block_io_ok" label: "Block_Io_Ok\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:149:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__i_ad" label: "I_Ad\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:158:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_ad" label: "I_Ad\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:59:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_ad" targetname: "system__stream_attributes__xdr__i_ad" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:164:20" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_ad" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:167:18" }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-except.ads:182:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_ad" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:170:10" }
+node: { title: "system__stream_attributes__i_as" label: "I_As\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:180:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_as" label: "I_As\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:60:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_as" targetname: "system__stream_attributes__xdr__i_as" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:186:20" }
+edge: { sourcename: "system__stream_attributes__i_as" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:189:18" }
+edge: { sourcename: "system__stream_attributes__i_as" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:192:10" }
+node: { title: "system__stream_attributes__i_b" label: "I_B\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:202:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_b" label: "I_B\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:61:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_b" targetname: "system__stream_attributes__xdr__i_b" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:208:20" }
+edge: { sourcename: "system__stream_attributes__i_b" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:211:18" }
+edge: { sourcename: "system__stream_attributes__i_b" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:214:10" }
+node: { title: "system__stream_attributes__i_c" label: "I_C\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:224:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_c" label: "I_C\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:62:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_c" targetname: "system__stream_attributes__xdr__i_c" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:230:20" }
+edge: { sourcename: "system__stream_attributes__i_c" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:233:18" }
+edge: { sourcename: "system__stream_attributes__i_c" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:236:10" }
+node: { title: "system__stream_attributes__i_f" label: "I_F\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:246:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_f" label: "I_F\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:63:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_f" targetname: "system__stream_attributes__xdr__i_f" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:252:20" }
+edge: { sourcename: "system__stream_attributes__i_f" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:255:18" }
+edge: { sourcename: "system__stream_attributes__i_f" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:258:10" }
+node: { title: "system__stream_attributes__i_i" label: "I_I\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:268:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_i" label: "I_I\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:64:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_i" targetname: "system__stream_attributes__xdr__i_i" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:274:20" }
+edge: { sourcename: "system__stream_attributes__i_i" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:277:18" }
+edge: { sourcename: "system__stream_attributes__i_i" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:280:10" }
+node: { title: "system__stream_attributes__i_i24" label: "I_I24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:290:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_i24" label: "I_I24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:65:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_i24" targetname: "system__stream_attributes__xdr__i_i24" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:296:20" }
+edge: { sourcename: "system__stream_attributes__i_i24" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:299:18" }
+edge: { sourcename: "system__stream_attributes__i_i24" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:302:10" }
+node: { title: "system__stream_attributes__i_lf" label: "I_Lf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:312:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_lf" label: "I_Lf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:66:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_lf" targetname: "system__stream_attributes__xdr__i_lf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:318:20" }
+edge: { sourcename: "system__stream_attributes__i_lf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:321:18" }
+edge: { sourcename: "system__stream_attributes__i_lf" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:324:10" }
+node: { title: "system__stream_attributes__i_li" label: "I_Li\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:334:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_li" label: "I_Li\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:67:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_li" targetname: "system__stream_attributes__xdr__i_li" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:340:20" }
+edge: { sourcename: "system__stream_attributes__i_li" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:343:18" }
+edge: { sourcename: "system__stream_attributes__i_li" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:346:10" }
+node: { title: "system__stream_attributes__i_llf" label: "I_Llf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:356:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_llf" label: "I_Llf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:68:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_llf" targetname: "system__stream_attributes__xdr__i_llf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:362:20" }
+edge: { sourcename: "system__stream_attributes__i_llf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:365:18" }
+edge: { sourcename: "system__stream_attributes__i_llf" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:368:10" }
+node: { title: "system__stream_attributes__i_lli" label: "I_Lli\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:378:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_lli" label: "I_Lli\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:69:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_lli" targetname: "system__stream_attributes__xdr__i_lli" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:384:20" }
+edge: { sourcename: "system__stream_attributes__i_lli" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:387:18" }
+edge: { sourcename: "system__stream_attributes__i_lli" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:390:10" }
+node: { title: "system__stream_attributes__i_llu" label: "I_Llu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:400:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_llu" label: "I_Llu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:70:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_llu" targetname: "system__stream_attributes__xdr__i_llu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:408:20" }
+edge: { sourcename: "system__stream_attributes__i_llu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:411:18" }
+edge: { sourcename: "system__stream_attributes__i_llu" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:414:10" }
+node: { title: "system__stream_attributes__i_lu" label: "I_Lu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:424:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_lu" label: "I_Lu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:71:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_lu" targetname: "system__stream_attributes__xdr__i_lu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:430:20" }
+edge: { sourcename: "system__stream_attributes__i_lu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:433:18" }
+edge: { sourcename: "system__stream_attributes__i_lu" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:436:10" }
+node: { title: "system__stream_attributes__i_sf" label: "I_Sf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:446:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_sf" label: "I_Sf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:72:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_sf" targetname: "system__stream_attributes__xdr__i_sf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:452:20" }
+edge: { sourcename: "system__stream_attributes__i_sf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:455:18" }
+edge: { sourcename: "system__stream_attributes__i_sf" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:458:10" }
+node: { title: "system__stream_attributes__i_si" label: "I_Si\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:468:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_si" label: "I_Si\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:73:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_si" targetname: "system__stream_attributes__xdr__i_si" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:474:20" }
+edge: { sourcename: "system__stream_attributes__i_si" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:477:18" }
+edge: { sourcename: "system__stream_attributes__i_si" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:480:10" }
+node: { title: "system__stream_attributes__i_ssi" label: "I_Ssi\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:490:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_ssi" label: "I_Ssi\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:74:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_ssi" targetname: "system__stream_attributes__xdr__i_ssi" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:496:20" }
+edge: { sourcename: "system__stream_attributes__i_ssi" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:499:18" }
+edge: { sourcename: "system__stream_attributes__i_ssi" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:502:10" }
+node: { title: "system__stream_attributes__i_ssu" label: "I_Ssu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:512:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_ssu" label: "I_Ssu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:75:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_ssu" targetname: "system__stream_attributes__xdr__i_ssu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:520:20" }
+edge: { sourcename: "system__stream_attributes__i_ssu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:523:18" }
+edge: { sourcename: "system__stream_attributes__i_ssu" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:526:10" }
+node: { title: "system__stream_attributes__i_su" label: "I_Su\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:536:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_su" label: "I_Su\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:77:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_su" targetname: "system__stream_attributes__xdr__i_su" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:542:20" }
+edge: { sourcename: "system__stream_attributes__i_su" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:545:18" }
+edge: { sourcename: "system__stream_attributes__i_su" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:548:10" }
+node: { title: "system__stream_attributes__i_u" label: "I_U\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:558:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_u" label: "I_U\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:78:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_u" targetname: "system__stream_attributes__xdr__i_u" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:564:20" }
+edge: { sourcename: "system__stream_attributes__i_u" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:567:18" }
+edge: { sourcename: "system__stream_attributes__i_u" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:570:10" }
+node: { title: "system__stream_attributes__i_u24" label: "I_U24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:580:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_u24" label: "I_U24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:79:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_u24" targetname: "system__stream_attributes__xdr__i_u24" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:586:20" }
+edge: { sourcename: "system__stream_attributes__i_u24" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:589:18" }
+edge: { sourcename: "system__stream_attributes__i_u24" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:592:10" }
+node: { title: "system__stream_attributes__i_wc" label: "I_Wc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:602:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_wc" label: "I_Wc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:80:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_wc" targetname: "system__stream_attributes__xdr__i_wc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:608:20" }
+edge: { sourcename: "system__stream_attributes__i_wc" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:611:18" }
+edge: { sourcename: "system__stream_attributes__i_wc" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:614:10" }
+node: { title: "system__stream_attributes__i_wwc" label: "I_Wwc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:624:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__i_wwc" label: "I_Wwc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:81:13" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__i_wwc" targetname: "system__stream_attributes__xdr__i_wwc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:630:20" }
+edge: { sourcename: "system__stream_attributes__i_wwc" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:633:18" }
+edge: { sourcename: "system__stream_attributes__i_wwc" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:636:10" }
+node: { title: "system__stream_attributes__w_ad" label: "W_Ad\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:646:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_ad" label: "W_Ad\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:92:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_ad" targetname: "system__stream_attributes__xdr__w_ad" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:650:13" }
+edge: { sourcename: "system__stream_attributes__w_ad" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:654:18" }
+node: { title: "system__stream_attributes__w_as" label: "W_As\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:661:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_as" label: "W_As\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:93:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_as" targetname: "system__stream_attributes__xdr__w_as" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:665:13" }
+edge: { sourcename: "system__stream_attributes__w_as" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:669:18" }
+node: { title: "system__stream_attributes__w_b" label: "W_B\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:676:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_b" label: "W_B\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:94:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_b" targetname: "system__stream_attributes__xdr__w_b" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:680:13" }
+edge: { sourcename: "system__stream_attributes__w_b" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:685:18" }
+node: { title: "system__stream_attributes__w_c" label: "W_C\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:692:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_c" label: "W_C\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:95:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_c" targetname: "system__stream_attributes__xdr__w_c" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:696:13" }
+edge: { sourcename: "system__stream_attributes__w_c" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:701:18" }
+node: { title: "system__stream_attributes__w_f" label: "W_F\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:708:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_f" label: "W_F\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:96:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_f" targetname: "system__stream_attributes__xdr__w_f" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:711:13" }
+edge: { sourcename: "system__stream_attributes__w_f" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:715:18" }
+node: { title: "system__stream_attributes__w_i" label: "W_I\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:722:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_i" label: "W_I\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:97:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_i" targetname: "system__stream_attributes__xdr__w_i" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:725:13" }
+edge: { sourcename: "system__stream_attributes__w_i" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:729:18" }
+node: { title: "system__stream_attributes__w_i24" label: "W_I24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:736:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_i24" label: "W_I24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:98:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_i24" targetname: "system__stream_attributes__xdr__w_i24" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:739:13" }
+edge: { sourcename: "system__stream_attributes__w_i24" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:743:18" }
+node: { title: "system__stream_attributes__w_lf" label: "W_Lf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:750:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_lf" label: "W_Lf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:99:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_lf" targetname: "system__stream_attributes__xdr__w_lf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:753:13" }
+edge: { sourcename: "system__stream_attributes__w_lf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:757:18" }
+node: { title: "system__stream_attributes__w_li" label: "W_Li\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:764:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_li" label: "W_Li\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:100:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_li" targetname: "system__stream_attributes__xdr__w_li" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:767:13" }
+edge: { sourcename: "system__stream_attributes__w_li" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:771:18" }
+node: { title: "system__stream_attributes__w_llf" label: "W_Llf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:778:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_llf" label: "W_Llf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:101:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_llf" targetname: "system__stream_attributes__xdr__w_llf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:781:13" }
+edge: { sourcename: "system__stream_attributes__w_llf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:785:18" }
+node: { title: "system__stream_attributes__w_lli" label: "W_Lli\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:792:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_lli" label: "W_Lli\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:102:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_lli" targetname: "system__stream_attributes__xdr__w_lli" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:795:13" }
+edge: { sourcename: "system__stream_attributes__w_lli" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:799:18" }
+node: { title: "system__stream_attributes__w_llu" label: "W_Llu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:806:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_llu" label: "W_Llu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:103:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_llu" targetname: "system__stream_attributes__xdr__w_llu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:811:13" }
+edge: { sourcename: "system__stream_attributes__w_llu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:815:18" }
+node: { title: "system__stream_attributes__w_lu" label: "W_Lu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:822:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_lu" label: "W_Lu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:105:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_lu" targetname: "system__stream_attributes__xdr__w_lu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:825:13" }
+edge: { sourcename: "system__stream_attributes__w_lu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:829:18" }
+node: { title: "system__stream_attributes__w_sf" label: "W_Sf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:836:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_sf" label: "W_Sf\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:106:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_sf" targetname: "system__stream_attributes__xdr__w_sf" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:839:13" }
+edge: { sourcename: "system__stream_attributes__w_sf" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:843:18" }
+node: { title: "system__stream_attributes__w_si" label: "W_Si\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:850:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_si" label: "W_Si\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:107:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_si" targetname: "system__stream_attributes__xdr__w_si" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:853:13" }
+edge: { sourcename: "system__stream_attributes__w_si" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:857:18" }
+node: { title: "system__stream_attributes__w_ssi" label: "W_Ssi\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:864:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_ssi" label: "W_Ssi\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:108:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_ssi" targetname: "system__stream_attributes__xdr__w_ssi" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:869:13" }
+edge: { sourcename: "system__stream_attributes__w_ssi" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:873:18" }
+node: { title: "system__stream_attributes__w_ssu" label: "W_Ssu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:880:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_ssu" label: "W_Ssu\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:109:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_ssu" targetname: "system__stream_attributes__xdr__w_ssu" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:885:13" }
+edge: { sourcename: "system__stream_attributes__w_ssu" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:889:18" }
+node: { title: "system__stream_attributes__w_su" label: "W_Su\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:896:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_su" label: "W_Su\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:111:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_su" targetname: "system__stream_attributes__xdr__w_su" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:899:13" }
+edge: { sourcename: "system__stream_attributes__w_su" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:903:18" }
+node: { title: "system__stream_attributes__w_u" label: "W_U\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:910:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_u" label: "W_U\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:112:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_u" targetname: "system__stream_attributes__xdr__w_u" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:913:13" }
+edge: { sourcename: "system__stream_attributes__w_u" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:917:18" }
+node: { title: "system__stream_attributes__w_u24" label: "W_U24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:924:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_u24" label: "W_U24\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:113:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_u24" targetname: "system__stream_attributes__xdr__w_u24" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:927:13" }
+edge: { sourcename: "system__stream_attributes__w_u24" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:931:18" }
+node: { title: "system__stream_attributes__w_wc" label: "W_Wc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:938:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_wc" label: "W_Wc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:114:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_wc" targetname: "system__stream_attributes__xdr__w_wc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:941:13" }
+edge: { sourcename: "system__stream_attributes__w_wc" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:945:18" }
+node: { title: "system__stream_attributes__w_wwc" label: "W_Wwc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:952:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__stream_attributes__xdr__w_wwc" label: "W_Wwc\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-statxd.ads:115:14" shape : ellipse }
+edge: { sourcename: "system__stream_attributes__w_wwc" targetname: "system__stream_attributes__xdr__w_wwc" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:957:13" }
+edge: { sourcename: "system__stream_attributes__w_wwc" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stratt.adb:961:18" }
+}

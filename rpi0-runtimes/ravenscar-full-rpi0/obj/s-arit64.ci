@@ -1,0 +1,20 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb"
+node: { title: "system__arith_64__raise_error" label: "Raise_Error\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:325:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-except.ads:182:14" shape : ellipse }
+edge: { sourcename: "system__arith_64__raise_error" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:327:7" }
+node: { title: "system__arith_64__add_with_ovflo_check" label: "Add_With_Ovflo_Check\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:104:4\n24 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__arith_64__add_with_ovflo_check" targetname: "system__arith_64__raise_error" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:119:7" }
+node: { title: "system__arith_64__double_divide" label: "Double_Divide\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:126:4\n64 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__arith_64__double_divide" targetname: "system__arith_64__raise_error" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:147:10" }
+node: { title: "__aeabi_uldivmod" label: "aeabi_uldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__arith_64__double_divide" targetname: "__aeabi_uldivmod" }
+node: { title: "__gnat_mulv64" label: "Multiply_With_Ovflo_Check\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:267:4\n40 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "__gnat_mulv64" targetname: "system__arith_64__raise_error" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:281:13" }
+node: { title: "system__arith_64__scaled_divide" label: "Scaled_Divide\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:334:4\n152 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__arith_64__scaled_divide" targetname: "system__arith_64__raise_error" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:422:13" }
+edge: { sourcename: "system__arith_64__scaled_divide" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__arith_64__scaled_divide" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__arith_64__scaled_divide" targetname: "__aeabi_uldivmod" }
+node: { title: "system__arith_64__subtract_with_ovflo_check" label: "Subtract_With_Ovflo_Check\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:610:4\n24 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__arith_64__subtract_with_ovflo_check" targetname: "system__arith_64__raise_error" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-arit64.adb:625:7" }
+}

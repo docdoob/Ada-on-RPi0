@@ -1,0 +1,5 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-crc32.adb"
+node: { title: "system__crc32__get_value" label: "Get_Value\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-crc32.adb:113:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__crc32__initialize" label: "Initialize\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-crc32.adb:122:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__crc32__update" label: "Update\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-crc32.adb:131:4\n0 bytes (static)\n0 dynamic objects" }
+}

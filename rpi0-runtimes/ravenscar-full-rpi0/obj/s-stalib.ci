@@ -1,0 +1,10 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb"
+node: { title: "system__standard_library__exception_dataIP" label: "Exception_Dataip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.ads:101:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__standard_library__abort_undefer_direct" label: "Abort_Undefer_Direct\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb:72:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__soft_links__abort_undefer_raven" label: "Abort_Undefer_Raven\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-soflin.ads:79:14" shape : ellipse }
+edge: { sourcename: "system__standard_library__abort_undefer_direct" targetname: "system__soft_links__abort_undefer_raven" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb:74:39" }
+node: { title: "system__standard_library__adafinal" label: "Adafinal\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb:81:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "system__standard_library__adafinal" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb:85:37" }
+node: { title: "__gnat_break_start" label: "Break_Start\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-stalib.adb:100:4\n0 bytes (static)\n0 dynamic objects" }
+}

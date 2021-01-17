@@ -1,0 +1,9 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-restri.adb"
+node: { title: "system__restrictions__rident__Trestriction_flagsBIP" label: "Trestriction_Flagsbip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-rident.ads:317:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__rident__Trestriction_valuesBIP" label: "Trestriction_Valuesbip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-rident.ads:318:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__rident__Tparameter_flagsBIP" label: "Tparameter_Flagsbip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-rident.ads:319:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__rident__restrictions_infoIP" label: "Restrictions_Infoip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-rident.ads:321:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__rident__profile_dataIP" label: "Profile_Dataip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-rident.ads:398:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__abort_allowed" label: "Abort_Allowed\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-restri.adb:41:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__restrictions__tasking_allowed" label: "Tasking_Allowed\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-restri.adb:52:4\n0 bytes (static)\n0 dynamic objects" }
+}

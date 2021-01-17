@@ -1,0 +1,17 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco5.adb"
+node: { title: "system__string_ops_concat_5__str_concat_5" label: "Str_Concat_5\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco5.adb:44:4\n80 bytes (dynamic)\n1 dynamic objects\n S15b /home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco5.adb:47:30" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-secsta.ads:58:14" shape : ellipse }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "system__secondary_stack__ss_allocate" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco5.adb:47:10" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "system__secondary_stack__ss_allocate" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco5.adb:50:10" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_5__str_concat_5" targetname: "memcpy" }
+}

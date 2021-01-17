@@ -1,0 +1,6 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-pack11.adb"
+node: { title: "system__pack_11__clusterIP" label: "Clusterip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-pack11.adb:48:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__pack_11__rev_clusterIP" label: "Rev_Clusterip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-pack11.adb:74:9\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__pack_11__get_11" label: "Get_11\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-pack11.adb:83:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__pack_11__set_11" label: "Set_11\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-pack11.adb:122:4\n4 bytes (static)\n0 dynamic objects" }
+}

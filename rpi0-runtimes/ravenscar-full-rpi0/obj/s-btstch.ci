@@ -1,0 +1,7 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-btstch.adb"
+node: { title: "_gnat_stack_check" label: "Stack_Check\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-btstch.adb:44:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "system__bb__interrupts__current_interrupt" label: "Current_Interrupt\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbinte.ads:78:13" shape : ellipse }
+edge: { sourcename: "_gnat_stack_check" targetname: "system__bb__interrupts__current_interrupt" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbinte.adb:251:8" }
+node: { title: "__gnat_rcheck_SE_Explicit_Raise" label: "gnat_rcheck_SE_Explicit_Raise\n<built-in>" shape : ellipse }
+edge: { sourcename: "_gnat_stack_check" targetname: "__gnat_rcheck_SE_Explicit_Raise" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-btstch.adb:65:10" }
+}

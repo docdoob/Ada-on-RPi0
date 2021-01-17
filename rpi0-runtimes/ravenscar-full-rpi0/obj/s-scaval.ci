@@ -1,0 +1,5 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-scaval.adb"
+node: { title: "system__scalar_values__initialize" label: "Initialize\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-scaval.adb:40:4\n40 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_getenv" label: "Get_Env_Value_Ptr\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-scaval.adb:44:17" shape : ellipse }
+edge: { sourcename: "system__scalar_values__initialize" targetname: "__gnat_getenv" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-scaval.adb:117:10" }
+}

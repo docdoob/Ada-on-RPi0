@@ -1,0 +1,6 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-excdeb.adb"
+node: { title: "__gnat_debug_raise_exception" label: "Debug_Raise_Exception\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-excdeb.adb:40:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_unhandled_exception" label: "Debug_Unhandled_Exception\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-excdeb.adb:52:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_debug_raise_assert_failure" label: "Debug_Raise_Assert_Failure\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-excdeb.adb:62:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "local_raise" label: "Local_Raise\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-excdeb.adb:71:4\n8 bytes (static)\n0 dynamic objects" }
+}

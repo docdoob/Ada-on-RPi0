@@ -1,0 +1,6 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-stunau.adb"
+node: { title: "ada__strings__unbounded__aux__get_string" label: "Get_String\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-stunau.adb:38:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__strings__unbounded__aux__set_string" label: "Set_String\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-stunau.adb:55:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__strings__unbounded__finalize__2" label: "Finalize\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-strunb.ads:763:14" shape : ellipse }
+edge: { sourcename: "ada__strings__unbounded__aux__set_string" targetname: "ada__strings__unbounded__finalize__2" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-stunau.adb:57:7" }
+}

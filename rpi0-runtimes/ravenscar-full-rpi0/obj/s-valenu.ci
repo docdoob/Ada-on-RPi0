@@ -1,0 +1,21 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb"
+node: { title: "system__val_enum__value_enumeration_8" label: "Value_Enumeration_8\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:42:4\n80 bytes (dynamic)\n1 dynamic objects\n S /home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:51:7" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__val_enum__value_enumeration_8" targetname: "memcpy" }
+node: { title: "system__val_util__normalize_string" label: "Normalize_String\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:41:14" shape : ellipse }
+edge: { sourcename: "system__val_enum__value_enumeration_8" targetname: "system__val_util__normalize_string" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:63:7" }
+node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__val_enum__value_enumeration_8" targetname: "memcmp" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:68:45" }
+node: { title: "system__val_util__bad_value" label: "Bad_Value\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:37:14" shape : ellipse }
+edge: { sourcename: "system__val_enum__value_enumeration_8" targetname: "system__val_util__bad_value" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:74:7" }
+node: { title: "system__val_enum__value_enumeration_16" label: "Value_Enumeration_16\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:81:4\n80 bytes (dynamic)\n1 dynamic objects\n S /home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:90:7" }
+edge: { sourcename: "system__val_enum__value_enumeration_16" targetname: "memcpy" }
+edge: { sourcename: "system__val_enum__value_enumeration_16" targetname: "system__val_util__normalize_string" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:102:7" }
+edge: { sourcename: "system__val_enum__value_enumeration_16" targetname: "memcmp" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:107:45" }
+edge: { sourcename: "system__val_enum__value_enumeration_16" targetname: "system__val_util__bad_value" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:113:7" }
+node: { title: "system__val_enum__value_enumeration_32" label: "Value_Enumeration_32\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:120:4\n80 bytes (dynamic)\n1 dynamic objects\n S /home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:129:7" }
+edge: { sourcename: "system__val_enum__value_enumeration_32" targetname: "memcpy" }
+edge: { sourcename: "system__val_enum__value_enumeration_32" targetname: "system__val_util__normalize_string" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:141:7" }
+edge: { sourcename: "system__val_enum__value_enumeration_32" targetname: "memcmp" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:146:45" }
+edge: { sourcename: "system__val_enum__value_enumeration_32" targetname: "system__val_util__bad_value" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valenu.adb:152:7" }
+}

@@ -1,0 +1,8 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbprot.adb"
+node: { title: "system__bb__protection__enter_kernel" label: "Enter_Kernel\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbprot.adb:62:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__bb__protection__leave_kernel" label: "Leave_Kernel\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbprot.adb:74:4\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "system__bb__protection__leave_kernel" targetname: "__indirect_call" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbprot.adb:102:35" }
+node: { title: "system__bb__cpu_primitives__context_switch" label: "Context_Switch\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbcppr.ads:55:14" shape : ellipse }
+edge: { sourcename: "system__bb__protection__leave_kernel" targetname: "system__bb__cpu_primitives__context_switch" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnarl/s-bbprot.adb:105:24" }
+}

@@ -1,0 +1,6 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-expint.adb"
+node: { title: "system__exp_int__exp_integer" label: "Exp_Integer\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-expint.adb:41:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__exp_int__exp_integer" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-expint.adb:65:36" }
+edge: { sourcename: "system__exp_int__exp_integer" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-expint.adb:75:33" }
+}

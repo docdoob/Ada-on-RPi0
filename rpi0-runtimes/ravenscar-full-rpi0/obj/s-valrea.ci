@@ -1,0 +1,31 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb"
+node: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:system__val_real__scan_integral_digits" label: "Scan_Integral_Digits\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:227:4\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "__aeabi_ldivmod" label: "aeabi_ldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:system__val_real__scan_integral_digits" targetname: "__aeabi_ldivmod" }
+node: { title: "system__val_real__scan_real" label: "Scan_Real\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:313:4\n160 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/a-except.ads:182:14" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__gnat_raise_exception" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:356:10" }
+node: { title: "system__val_util__scan_sign" label: "Scan_Sign\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:52:14" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "system__val_util__scan_sign" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:368:7" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:system__val_real__scan_integral_digits" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:380:10" }
+node: { title: "system__val_util__bad_value" label: "Bad_Value\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:37:14" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "system__val_util__bad_value" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:398:10" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "system__val_util__bad_value" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:431:13" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:system__val_real__scan_integral_digits" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:434:10" }
+node: { title: "__aeabi_uldivmod" label: "aeabi_uldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__aeabi_ldivmod" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__aeabi_ldivmod" }
+node: { title: "__aeabi_l2d" label: "aeabi_l2d\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "__aeabi_l2d" }
+node: { title: "system__val_util__scan_exponent" label: "Scan_Exponent\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:86:13" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "system__val_util__scan_exponent" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:488:32" }
+node: { title: "system__exn_llf__exn_long_long_float" label: "Exn_Long_Long_Float\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-exnllf.ads:45:13" shape : ellipse }
+edge: { sourcename: "system__val_real__scan_real" targetname: "system__exn_llf__exn_long_long_float" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:493:45" }
+node: { title: "system__val_real__value_real" label: "Value_Real\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:515:4\n40 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "system__val_real__value_real" targetname: "system__val_real__value_real" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:525:20" }
+edge: { sourcename: "system__val_real__value_real" targetname: "system__val_real__scan_real" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:535:18" }
+node: { title: "system__val_util__scan_trailing_blanks" label: "Scan_Trailing_Blanks\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valuti.ads:105:14" shape : ellipse }
+edge: { sourcename: "system__val_real__value_real" targetname: "system__val_util__scan_trailing_blanks" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.adb:536:13" }
+}

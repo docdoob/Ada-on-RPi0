@@ -1,0 +1,15 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco4.adb"
+node: { title: "system__string_ops_concat_4__str_concat_4" label: "Str_Concat_4\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco4.adb:44:4\n64 bytes (dynamic)\n1 dynamic objects\n S12b /home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco4.adb:47:25" }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-secsta.ads:58:14" shape : ellipse }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "system__secondary_stack__ss_allocate" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco4.adb:47:10" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "system__secondary_stack__ss_allocate" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-sopco4.adb:50:10" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+edge: { sourcename: "system__string_ops_concat_4__str_concat_4" targetname: "memcpy" }
+}

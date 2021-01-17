@@ -1,0 +1,11 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb"
+node: { title: "system__val_dec__scan_decimal" label: "Scan_Decimal\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:45:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "system__val_real__scan_real" label: "Scan_Real\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.ads:35:13" shape : ellipse }
+edge: { sourcename: "system__val_dec__scan_decimal" targetname: "system__val_real__scan_real" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:53:14" }
+node: { title: "system__exn_llf__exn_long_long_float" label: "Exn_Long_Long_Float\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-exnllf.ads:45:13" shape : ellipse }
+edge: { sourcename: "system__val_dec__scan_decimal" targetname: "system__exn_llf__exn_long_long_float" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:54:34" }
+node: { title: "system__val_dec__value_decimal" label: "Value_Decimal\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:63:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "system__val_real__value_real" label: "Value_Real\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valrea.ads:68:13" shape : ellipse }
+edge: { sourcename: "system__val_dec__value_decimal" targetname: "system__val_real__value_real" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:65:23" }
+edge: { sourcename: "system__val_dec__value_decimal" targetname: "system__exn_llf__exn_long_long_float" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-valdec.adb:65:47" }
+}

@@ -1,0 +1,6 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-carsi8.adb"
+node: { title: "system__compare_array_signed_8__Tbig_wordsBIP" label: "Tbig_Wordsbip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-carsi8.adb:41:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__compare_array_signed_8__Tbig_bytesBIP" label: "Tbig_Bytesbip\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-carsi8.adb:50:4\n0 bytes (static)\n0 dynamic objects" }
+node: { title: "system__compare_array_signed_8__compare_array_s8" label: "Compare_Array_S8\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-carsi8.adb:65:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "system__compare_array_signed_8__compare_array_s8_unaligned" label: "Compare_Array_S8_Unaligned\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/s-carsi8.adb:112:4\n8 bytes (static)\n0 dynamic objects" }
+}

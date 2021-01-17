@@ -1,0 +1,8 @@
+graph: { title: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.adb"
+node: { title: "gnat__secure_hashes__message_stateIP" label: "MESSAGE_STATEIP\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.ads:55:9\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__fill_buffer_copy" label: "FILL_BUFFER_COPY\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.adb:76:4\n24 bytes (static)\n0 dynamic objects" }
+node: { title: "memmove" label: "builtin_memmove\n<built-in>" shape : ellipse }
+edge: { sourcename: "gnat__secure_hashes__fill_buffer_copy" targetname: "memmove" label: "/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.adb:92:50" }
+node: { title: "gnat__secure_hashes__fill_buffer_swap" label: "FILL_BUFFER_SWAP\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.adb:102:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "gnat__secure_hashes__to_string" label: "TO_STRING\n/home/john/IT/Ada/adacore-downloads-2006/bb-runtimes-community-2020/rpi0-runtime/ravenscar-full-rpi0/gnat/g-sechas.adb:128:4\n48 bytes (static)\n0 dynamic objects" }
+}
