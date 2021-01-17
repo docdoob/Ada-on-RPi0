@@ -1,6 +1,3 @@
-I N C O M P L E T E
-===================
-____________________
 
 # Ada-on-RPi0
 
@@ -12,7 +9,7 @@ The standard source of (other) runtimes is here: https://github.com/AdaCore/bb-r
 
 Only the Zero FootPrint library has been tested. It is in rpio-runtimes/zfp-rpi0.
 
-These runtimes were created by cloning the rpi2 information, altering this and then building as described in the link above.  The following files are new and are in the libraries:
+These runtimes were created by cloning the rpi2 information in the above standard source, altering this and then building as described in the link above.  The following files are new and are in the libraries:
 
 - /src/s-bbbosu__rpi0.adb 
    
